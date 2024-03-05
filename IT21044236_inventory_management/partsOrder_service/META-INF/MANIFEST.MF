@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Bundle-ManifestVersion: 2
-Bundle-Name: PartsOrder_service
-Bundle-SymbolicName: partsOrder_service
-Bundle-Activator: partsorder_service.OrderPartsActivator
-Bundle-Version: 1.0.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-19
-Import-Package: com.mtit.inventory,
- org.osgi.framework;version="1.3.0"
