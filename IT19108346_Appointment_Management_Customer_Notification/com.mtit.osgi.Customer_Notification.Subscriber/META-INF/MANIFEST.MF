@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Subscriber
+Bundle-SymbolicName: com.mtit.osgi.Customer_Notification.Subscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.mtit.osgi.customer_notification.subscriber.Activator
+Bundle-Vendor: MTIT
+Bundle-RequiredExecutionEnvironment: JavaSE-19
+Automatic-Module-Name: com.mtit.osgi.Customer.Notification.Subscriber
+Import-Package: com.mtit.osgi.Appointment_Management.publisher,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
